@@ -78,10 +78,11 @@ header .high_part .logIn a:last-child {
     font-weight: bold;
 }
 
-header .low_part {
+header .low_part, 
+.adv_form {
     background-color: #FF7143;
 }
-header .low_part .contant {
+header .low_part .contant{
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
@@ -95,7 +96,8 @@ header .low_part .contant .description {
     flex-direction: column;
     text-align: center;
 }
-header .low_part .contant .description .info h1 {
+header .low_part .contant .description .info h1,
+.adv_form .contant .description .info h1 {
     color: #000;
     font-size: 72px;
     font-weight: bold;
@@ -108,7 +110,8 @@ header .low_part .contant .description .info p {
     margin-top: 27px;
 }
 
-header .low_part .contant .description .info .buttons button {
+header .low_part .contant .description .info .buttons button,
+.adv_form .contant .description .info .buttons button {
     border: none;
     padding: 20px 32px;
     font-size: 18px;
@@ -116,22 +119,26 @@ header .low_part .contant .description .info .buttons button {
     border-radius: 10px;
     cursor: pointer;
 }
-header .low_part .contant .description .info .buttons button:first-child {
+header .low_part .contant .description .info .buttons button:first-child,
+.adv_form .contant .description .info .buttons button:first-child {
     color: #fff;
     background-color: #000;
 }
-header .low_part .contant .description .info .buttons button:last-child {
+header .low_part .contant .description .info .buttons button:last-child,
+.adv_form .contant .description .info .buttons button:last-child {
     color: #000;
     background-color: #fff;
     margin-left: 10px;
 }
 
-header .low_part .contant .description .viewers {
+header .low_part .contant .description .viewers,
+.adv_form .contant .description .viewers {
     margin-top: 160px;
     text-align: center;
 }
 
-header .low_part .contant .description .viewers p:nth-child(2) {
+header .low_part .contant .description .viewers p:nth-child(2),
+.adv_form .contant .description .viewers p:nth-child(2) {
     font-size: 20px;
     font-weight: bold;
     width: 350px;
@@ -139,14 +146,16 @@ header .low_part .contant .description .viewers p:nth-child(2) {
     margin-top: 42px;
 }
 
-header .low_part .contant .description .viewers p:last-child {
+header .low_part .contant .description .viewers p:last-child,
+.adv_form .contant .description .viewers p:last-child {
     margin-top: 16px;
 }
-header .low_part .contant .description .viewers p>span {
+header .low_part .contant .description .viewers p>span,
+.adv_form .contant .description .viewers p>span {
     color: rgba(0, 0, 0, 0.6);
 }
 
-header .low_part .contant .promo {
+header .low_part .contant .promo{
     object-fit: cover;
 }
 
@@ -239,4 +248,86 @@ header .low_part .contant .promo {
 }
 .example p {
     padding: 24px 266px 25px 33px;
+}
+
+.adv_form {
+    width: 100%;
+}
+
+.adv_form .contant{
+    margin-top: 100px;
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.adv_form .contant .description .info p{
+    max-width: 479px;
+    margin: 0 auto;
+}
+
+.adv_form form {
+    background-color: #fff;
+    width: 441px;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+.adv_form form span {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.adv_form form label {
+    padding: 0 40px;
+}
+.adv_form form label input {
+    padding: 10px;
+    margin-top: 12px;
+    width: 360px;
+}
+
+.adv_form form .checkbox {
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.adv_form form button {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 40px;
+    padding: 20px 154px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.adv_form form .sending p:last-child {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.adv_form form p:last-child>a {
+    color: #FF7143;
+}
+
+.adv_form .contant .description {
+    text-align: center;
+}
+
+.adv_form .contant .description .info p {
+    color: #000;
+    font-size: 18px;
+    margin-top: 27px;
 }
