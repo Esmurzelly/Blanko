@@ -82,7 +82,7 @@ header .low_part {
     background-color: #FF7143;
 }
 header .low_part .contant {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -104,7 +104,7 @@ header .low_part .contant .description .info h1 {
 header .low_part .contant .description .info p {
     color: #000;
     font-size: 18px;
-    width: 600px;
+    max-width: 600px;
     margin-top: 27px;
 }
 
@@ -144,4 +144,8 @@ header .low_part .contant .description .viewers p:last-child {
 }
 header .low_part .contant .description .viewers p>span {
     color: rgba(0, 0, 0, 0.6);
+}
+
+header .low_part .contant .promo {
+    object-fit: cover;
 }
