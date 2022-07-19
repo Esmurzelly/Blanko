@@ -149,3 +149,67 @@ header .low_part .contant .description .viewers p>span {
 header .low_part .contant .promo {
     object-fit: cover;
 }
+
+
+.advertising {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; 
+    margin-top: 87px;
+    max-width: 1280px;
+}
+.advertising__part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 60px;
+}
+.advertising__part .description {
+    margin-left: 25px;
+}
+
+
+
+.slider {
+    background-color: #000000;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 87px;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.slider .description p:first-child {
+    font-size: 50px;
+}
+.slider .description p:nth-child(2) {
+    font-size: 48px;
+}
+.slider .description .author p:first-child {
+    font-size: 27px;
+}
+.slider .description .author p:last-child {
+    font-size: 24px;
+}
+
+.dots {
+    display: inline;
+}
+
+.dots button {
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: #fff;
+}
