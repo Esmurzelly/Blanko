@@ -156,7 +156,8 @@ header .low_part .contant .description .viewers p>span,
 }
 
 header .low_part .contant .promo{
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -245,6 +246,14 @@ header .low_part .contant .promo{
 .other_pages .example {
     border: 1px solid rgba(214, 214, 214, 1);
     border-radius: 10px;
+    cursor: pointer;
+}
+.landing_pages .example img,
+.other_pages .example img {
+    height: 374px;
+    width: 414px;
+    padding: 40px 40px 0 40px;
+    background-color: #000;
 }
 .example p {
     padding: 24px 266px 25px 33px;
@@ -338,14 +347,14 @@ header .low_part .contant .promo{
 footer {
     background-color: #000;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
+    width: 100%;
     padding: 15px 0px;
 }
 
 footer .wrapper{
-    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -411,4 +420,268 @@ footer .wrapper .powered_by .authors span {
 
 footer .wrapper .powered_by p {
     cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+    .landing_pages .example img,
+    .other_pages .example img {
+        height: 324px;
+        width: 374px;
+        padding: 40px 40px 0 40px;
+        background-color: #000;
+    }
+    .example p {
+        padding: 24px 200px 25px 33px;
+    }
+
+    footer .wrapper{
+        padding: 0 20px;
+    }
+
+    .adv_form form {
+        margin-right: 50px;
+    }
+
+header .low_part .contant .description .info h1,
+.adv_form .contant .description .info h1 {
+    font-size: 50px;
+}
+
+header .low_part .contant {
+    width: 1000px;
+}
+
+header .low_part .contant .description .info p {
+    color: #000;
+    font-size: 16px;
+    max-width: 500px;
+}
+
+header .low_part .contant .description .info .buttons button,
+.adv_form .contant .description .info .buttons button {
+    padding: 15px 15px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+header .low_part .contant .description .viewers,
+.adv_form .contant .description .viewers {
+    margin-top: 100px;
+}
+
+header .low_part .contant .description .viewers p:nth-child(2),
+.adv_form .contant .description .viewers p:nth-child(2) {
+    font-size: 16px;
+    max-width: 300px;
+    margin-top: 30px;
+}
+
+header .low_part .contant .description .viewers p:last-child,
+.adv_form .contant .description .viewers p:last-child {
+    margin-top: 16px;
+}
+
+} 
+
+@media (max-width: 1160px) {
+    .landing_pages .example img,
+    .other_pages .example img {
+        height: 260px;
+        width: 300px;
+        padding: 40px 40px 0 40px;
+        background-color: #000;
+    }
+    .example p {
+        padding: 24px 150px 25px 33px;
+    }
+    .advertising {
+        padding: 0 15px;
+    }
+} 
+
+@media (max-width: 1000px) {
+header .low_part .contant .description .info h1,
+.adv_form .contant .description .info h1 {
+    font-size: 40px;
+}
+
+header .low_part .contant {
+    width: 900px;
+}
+
+header .low_part .contant .description .viewers,
+.adv_form .contant .description .viewers {
+    margin-top: 90px;
+}
+
+header .low_part .contant .description .viewers p:nth-child(2),
+.adv_form .contant .description .viewers p:nth-child(2) {
+    font-size: 13px;
+    max-width: 270px;
+    margin-top: 30px;
+}
+
+.promo {
+    width: 270px;
+    height: auto;
+}
+
+.advertising .advertising__part .description h2 {
+    font-size: 20px;
+}
+.advertising .advertising__part .description p {
+    font-size: 13px;
+}
+
+.slider {
+    margin: 0 auto;
+    margin-top: 87px;
+    max-width: 1280px;
+}
+    
+    .slider .description p:first-child {
+        font-size: 35px;
+    }
+    .slider .description p:nth-child(2) {
+        font-size: 32px;
+    }
+    .slider .description .author p:first-child {
+        font-size: 15px;
+    }
+    .slider .description .author p:last-child {
+        font-size: 15px;
+    }
+    .dots button {
+        width: 13px;
+        height: 13px;
+    }
+    .slider img {
+        max-width: 320px;
+    }
+}
+
+
+@media (max-width: 964px) {
+    header .low_part .contant {
+        width: 700px;
+    }
+    .high_part .logo {
+        padding: 15px;
+    }
+
+    header .high_part .menu input {
+        width: 130px;
+        height: 32px;
+    }
+    
+    header .high_part .menu ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 20px;
+        cursor: pointer;
+        font-size: 1.5vw;
+    }
+    
+    header .high_part .logIn {
+        display: inline-block;
+        font-size: 1.5vw;
+    }
+    header .high_part .logIn a:last-child {
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width: 869px) {
+    header .low_part .contant .description .info h1 {
+        font-size: 30px;
+    }
+    
+    header .low_part .contant .description .info p {
+        font-size: 13px;
+        max-width: 320px;
+    }
+    
+    header .low_part .contant .description .info .buttons button {
+        padding: 8px 18px;
+        font-size: 13px;
+    }    
+    header .low_part .contant .description .viewers {
+        margin-top: 50px;
+    }
+    
+    header .low_part .contant .description .viewers p:nth-child(2) {
+        font-size: 13px;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    
+    header .low_part .contant .description .viewers p:last-child {
+        margin-top: 16px;
+    }
+
+    header .low_part .contant {
+        max-width: 600px;
+    }
+    .promo {
+        width: 200px;
+        
+    }
+    
+    .advertising .advertising__part .description p {
+        font-size: 1vw;
+    }
+    .advertising__part img {
+        width: 60px;
+        height: auto;
+    }
+    .adv_form .contant .description {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .adv_form .contant .description .info h1 {
+        font-size: 30px;
+    }
+
+    .adv_form .contant .description .info p {
+        font-size: 15px;
+        max-width: 350px;
+    }
+
+    header .low_part .contant {
+        width: 800px;
+    }
+
+    .adv_form .contant .description .viewers {
+        margin-top: 70px;
+    }
+
+    .adv_form form {
+        width: 341px;
+        height: 455px;
+        
+    }
+    .adv_form form span {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .adv_form form label {
+        padding: 0 30px;
+    }
+    .adv_form form label input {
+        padding: 10px;
+        margin-top: 8px;
+        width: 280px;
+    }
+    
+    .adv_form form .checkbox {
+        margin-left: 30px;
+    }
+    
+    .adv_form form button {
+        margin-left: 40px;
+        padding: 15px 100px;
+    }
+
 }
