@@ -377,6 +377,7 @@ footer .wrapper .social_info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-top: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.16);
 }
@@ -684,4 +685,240 @@ header .low_part .contant .description .viewers p:nth-child(2),
         padding: 15px 100px;
     }
 
+}
+
+
+@media (max-width: 772px) {
+    header .low_part .contant {
+        width: 500px;
+    }
+    .high_part .logo img {
+        width: 70px;
+    }
+
+    header .high_part .menu input {
+        width: 100px;
+        height: 25px;
+    }
+    header .high_part .menu input::placeholder {
+        font-size: 10px;
+    }
+    header .high_part .menu ul li img {
+        width: 6px;
+    }
+    header .high_part .menu ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 20px;
+        cursor: pointer;
+        font-size: 1.3vw;
+    }
+    
+    header .high_part .logIn {
+        display: inline-block;
+        font-size: 1.2vw;
+    }
+    header .high_part .logIn img {
+        width: 6px;
+    }
+    header .high_part .logIn a:last-child {
+        padding: 5px 10px;
+    }
+
+
+    header .low_part .contant .description .info h1 {
+        font-size: 20px;
+    }
+    
+    header .low_part .contant .description .info p {
+        font-size: 10px;
+        max-width: 250px;
+    }
+    
+    header .low_part .contant .description .info .buttons button {
+        padding: 8px 10px;
+        font-size: 1.3vw;
+    }    
+    header .low_part .contant .description .viewers {
+        margin-top: 50px;
+    }
+    header .low_part .contant .description .viewers img {
+        width: 80px;
+    }
+    
+    header .low_part .contant .description .viewers p:nth-child(2) {
+        font-size: 1.3vw;
+        width: 230px;
+        margin-top: 7px;
+    }
+    
+    header .low_part .contant .description .viewers p:last-child {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    header .low_part .contant {
+        max-width: 600px;
+    }
+    .promo {
+        width: 150px;
+    }
+
+    .advertising .advertising__part .description p {
+        font-size: 0.9vw;
+    }
+    .advertising__part img {
+        width: 50px;
+    }
+
+    
+    .slider .description p:first-child {
+        font-size: 30px;
+    }
+    .slider .description p:nth-child(2) {
+        font-size: 25px;
+    }
+    .slider .description .author p:first-child {
+        font-size: 15px;
+    }
+    .slider .description .author p:last-child {
+        font-size: 15px;
+    }
+    
+    .dots {
+        display: inline;
+    }
+    .dots button {
+        width: 16px;
+        height: 16px;
+        border: none;
+        background-color: #fff;
+    }
+
+
+    .adv_form .contant .description .info h1 {
+        font-size: 20px;
+    }
+
+    .adv_form .contant .description .info p {
+        font-size: 10px;
+        max-width: 300px;
+    }
+
+    .adv_form .contant .description .info .buttons button {
+        padding: 10px 13px;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+    .adv_form .contant .description .viewers {
+        margin-top: 50px;
+    }
+    .adv_form .contant .description .viewers img {
+        width: 80px;
+    }
+
+    .adv_form form {
+        width: 280px;
+        height: 400px;
+        
+    }
+    .adv_form form span {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .adv_form form label {
+        padding: 0 20px;
+    }
+    .adv_form form label input {
+        padding: 10px;
+        margin-top: 8px;
+        width: 210px;
+    }
+    
+    .adv_form form .checkbox {
+        margin-left: 20px;
+    }
+    .adv_form form .checkbox p {
+        font-size: 13px;
+    }
+
+    .adv_form form .sending p:last-child {
+        font-size: 13px;
+    }
+    
+    .adv_form form button {
+        margin-left: 20px;
+        padding: 15px 85px;
+        font-size: 10px;
+    }
+
+    
+    footer  .wrapper .logo img {
+        width: 70px;
+    }
+    footer .wrapper .logo button {
+        font-size: 10px;
+        padding: 10px 25px;
+    }
+    footer  .wrapper .social_info ul li {
+        font-size: 13px;
+    }
+
+    footer .wrapper .social_info .social_networks img {
+        padding: 12px;
+        width: 35px;
+        height: 35px;
+    }
+
+    footer .wrapper .powered_by p {
+        font-size: 10px;
+    }
+    footer .wrapper .powered_by .authors img {
+        width: 50px;
+    }
+}
+
+
+@media (max-width: 621px) {
+    .landing_pages .example img, .other_pages .example img {
+        height: 160px;
+        width: 200px;
+        padding: 40px 40px 0 40px;
+    }
+    .example p {
+        padding: 15px 80px 15px 20px;
+    }
+} 
+
+@media (max-width: 596px) {
+    header .high_part .menu ul li {   
+        margin-right: 20px;
+        font-size: 1.2vw;
+    }
+    header .high_part .menu ul li img,
+    header .high_part .logIn img {
+        width: 5px;
+    }
+
+    .slider .description p:first-child {
+        font-size: 20px;
+    }
+    .slider .description p:nth-child(2) {
+        font-size: 18px;
+        padding: 0 4px;
+    }
+    .slider .description .author p:first-child {
+        font-size: 12px;
+    }
+    .slider .description .author p:last-child {
+        font-size: 12px;
+    }
+    .dots button {
+        width: 10px;
+        height: 10px;
+    }
+    .slider img {
+        max-width: 220px;
+    }
 }
