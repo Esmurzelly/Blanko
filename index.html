@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+
     <header>
         <div class="high_part">
             <div class="logo">
@@ -15,11 +16,26 @@
             </div>
             <div class="menu">
                 <input type="email" name="" id="" placeholder="mail@blanko.com">
-                <ul>
-                    <li>Loading<img src="/images/vector_down.svg" alt="drop_down"></li>
-                    <li>All pages<img src="/images/vector_down.svg" alt="drop_down"></li>
-                    <li>Template<img src="/images/vector_down.svg" alt="drop_down"></li>
-                </ul>
+
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar__wrap">
+                            <div class="hamb">
+                                <div class="hamb__field" id="hamb">
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </div>
+                            </div>
+                            <ul class="menu" id="menu_list">
+                                <li><a href="#slider">Loading <img src="/images/vector_down.svg" alt="drop_down"></a></li>
+                                <li><a href="#landing_pages">All pages <img src="/images/vector_down.svg" alt="drop_down"></a></li>
+                                <li><a href="#adv_form">Template <img src="/images/vector_down.svg" alt="drop_down"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="popup" id="popup"></div>
             </div>
             <div class="logIn">
                 <a href="#">Sign up <img src="/images/vector_down.svg" alt="drop_down"></a>
@@ -73,7 +89,7 @@
         </div>
     </section>
 
-    <section class="slider">
+    <section id="slider" class="slider">
         <div class="description">
             <p>DRUK</p>
             <p>“Join a community of industry leading professionals. Join a community of industry leading professionals.“</p>
@@ -91,7 +107,7 @@
         <img src="/images/wooman_slide.png" alt="">
     </section>
 
-    <section class="landing_pages">
+    <section id="landing_pages" class="landing_pages">
         <h2>Landing pages</h2>
         <div class="examples">
             <div class="example">
@@ -165,7 +181,7 @@
 
 
 
-    <section class="adv_form">
+    <section id="adv_form" class="adv_form">
         <div class="contant">
             <div class="description">
                 <div class="info">
@@ -237,7 +253,7 @@
         </div>
         
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
